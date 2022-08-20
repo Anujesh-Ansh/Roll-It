@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 //import android.widget.TextView
 import android.widget.Toast
 
@@ -36,8 +37,8 @@ class MainActivity : AppCompatActivity() {
 
 
         // to display the number for dice 1
-        //val resultTextView1: TextView = findViewById(R.id.textView)
-        //resultTextView1.text = (dice1Roll).toString() // toString - to convert the following into string; It prints the value stored in diceRoll, after changing it into string using .toString
+        val resultTextView1: TextView = findViewById(R.id.textView6)
+        resultTextView1.text = (dice1Roll).toString() // toString - to convert the following into string; It prints the value stored in diceRoll, after changing it into string using .toString
 
         // to display the number for dice 2
         //val resultTextView2: TextView = findViewById(R.id.textView5)
