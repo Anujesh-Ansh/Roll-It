@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.TextView
+//import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         }
         dice1Image.setImageResource(drawable1Resource)  // set.ImageResource - it changes the content of the image view
 
-        //diceImage.contentDescription = dice1Roll.toString() // to read out the number loud, but sunai nahi de raha hai
+        dice1Image.contentDescription = dice1Roll.toString() // to read out the number loud, but sunai nahi de raha hai, ya toh shayad se bas system mei description karta hai ki kis kaam ke liye yeh imageview bana hai
 
         val dice2Image: ImageView=findViewById(R.id.imageView2)
 
@@ -68,6 +68,8 @@ class MainActivity : AppCompatActivity() {
             else -> {R.drawable.dice_6} // use of else is there, to save the 'when' function from being exhausted
         }
         dice2Image.setImageResource(drawable2Resource)
+
+        dice2Image.contentDescription = dice2Roll.toString()
 
     }
 }
