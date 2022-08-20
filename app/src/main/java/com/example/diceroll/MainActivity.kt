@@ -29,10 +29,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         val dice1 = Dice(6) // calls and send a value to class Dice, i.e creates object for class Dice
-        val dice2 = Dice(6)
+        //val dice2 = Dice(6)
 
         val dice1Roll = dice1.roll() // call the function and stores the return value
-        val dice2Roll = dice2.roll()
+        //val dice2Roll = dice2.roll()
 
 
         // to display the number for dice 1
@@ -57,9 +57,9 @@ class MainActivity : AppCompatActivity() {
 
         dice1Image.contentDescription = dice1Roll.toString() // to read out the number loud, but sunai nahi de raha hai, ya toh shayad se bas system mei description karta hai ki kis kaam ke liye yeh imageview bana hai
 
-        val dice2Image: ImageView=findViewById(R.id.imageView2)
+//        val dice2Image: ImageView=findViewById(R.id.imageView2)
 
-        val drawable2Resource=when(dice2Roll){  // statement to check the number, R.drawable can change the content of diceImage, and place the required image to be displayed
+  /*      val drawable2Resource=when(dice2Roll){  // statement to check the number, R.drawable can change the content of diceImage, and place the required image to be displayed
             1 -> R.drawable.dice_1
             2 -> R.drawable.dice_2
             3 -> R.drawable.dice_3
@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         dice2Image.setImageResource(drawable2Resource)
 
         dice2Image.contentDescription = dice2Roll.toString()
-
+*/
     }
 }
 
