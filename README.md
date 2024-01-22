@@ -1,6 +1,6 @@
-# RollIt: A Kotlin Dice Rolling Adventure
+# Roll-It: A Kotlin Dice Rolling Adventure
 
-Welcome to RollIt 🎲, not just a dice roller, but your thrilling entry into the dynamic realm of Android app development in Kotlin.
+Welcome to Roll-It 🎲, not just a dice roller, but your thrilling entry into the dynamic realm of Android app development in Kotlin.
 
 ## Project Highlights 🎲📱
 
